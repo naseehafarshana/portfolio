@@ -1,0 +1,119 @@
+body {
+     background: linear-gradient(135deg, #000000 0%, #000000 100%);
+     color: #e0f7fa;
+     min-height: 100vh;
+ }
+
+ .navbar {
+     background: #111418 !important;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+     position: sticky;
+     top: 0;
+     z-index: 1000;
+     
+
+ }
+.navbar-brand{
+    font-size: 22px;
+}
+ .navbar-brand,
+ .nav-link {
+     color: #939393 !important;
+     font-weight: 700;
+     letter-spacing: 1px;
+ }
+
+ 
+ .nav-link:hover {
+     color: #fff !important;
+     background: #00000000;
+     border-radius: 5px;
+ }
+
+ .hero-section {
+     background: rgba(47, 47, 47, 0.656);
+     border-radius: 20px;
+     box-shadow: 0 4px 24px rgba(0, 229, 255, 0.06);
+     padding: 40px 30px;
+ }
+
+ .hero-section h1 {
+     color: #ffffff;
+     font-weight: 700;
+ }
+
+ .hero-section p {
+     color: #ffffff;
+ }
+
+ .card {
+     background: #23272b;
+     color: #e0f7fa;
+     border: none;
+     border-radius: 16px;
+     box-shadow: 0 2px 12px rgba(0, 229, 255, 0.07);
+     transition: transform 0.2s;
+ }
+
+ .card:hover {
+     transform: translateY(-8px) scale(1.03);
+     box-shadow: 0 8px 24px rgba(0, 229, 255, 0.18);
+ }
+
+ .card-title {
+     color: #fa8908;
+ }
+
+ .form-control,
+ .form-label {
+     background: #181c1f;
+     color: #e0f7fa;
+     border: 1px solid #e9b509;
+ }
+
+ .form-control:focus {
+     border-color: #e4fd02;
+     box-shadow: 0 0 0 0.2rem rgba(0, 229, 255, 0.15);
+     background: #23272b;
+     color: #e0f7fa;
+ }
+
+ .btn-primary {
+     background: linear-gradient(90deg, #f77307 0%, #ee8003 100%);
+     border: none;
+     color: #111418;
+     font-weight: 600;
+     letter-spacing: 1px;
+     box-shadow: 0 2px 8px rgba(0, 229, 255, 0.15);
+ }
+
+ .btn-primary:hover {
+     background: linear-gradient(90deg, #bdee0c 0%, #8ddf0a 100%);
+     color: #fff;
+ }
+
+ footer {
+     background: #111418;
+     color: #b2ebf2;
+     border-top: 1px solid #f7b708;
+ }
+
+ /* Custom scrollbar */
+ ::-webkit-scrollbar {
+     width: 8px;
+     background: #23272b;
+ }
+
+ ::-webkit-scrollbar-thumb {
+     background: #ec8a09;
+     border-radius: 4px;
+ }
+ #about-main{
+    height:65vh;
+ }
+ #abt-sec{
+    line-height: 35px;
+ }
+ .lead{
+    font-size: 18px;
+ }
