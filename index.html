@@ -159,23 +159,27 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="container my-5">
-        <h2 class="mb-4" style="color:#f18304; font-weight: 700;" id="contact">contact.</h2>
-        <form>
-            <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Your Name">
+  </section>
+    <!-- Contact Section -->
+    <section class="container my-5" id="contact">
+        <h2 class="mb-4" style="color:#ffbb00; font-weight: 700;">contact.</h2>
+        <form method="POST" id="form">
+            <input type="hidden" name="access_key" value="b382e51f-ebb3-45ab-84b0-1cbd0f07358e">
+            <div class="mb-3" >
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" style="color: #00e5ff;" name="name" class="form-control" id="name" required placeholder="Enter your name">
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                <input type="email" name="email" class="form-control" id="email" required>
             </div>
             <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+                <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="submit" class="btn btn-primary form-control">Submit</button>
         </form>
+        <div id="result"></div>
     </section>
 
     <!-- Footer -->
@@ -188,7 +192,7 @@
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"></script>
-
+<script src="./index.js"></script>
     <script src="./js/bootstrap.js"></script>
 </body>
 <!-- Google Fonts: Poppins -->
