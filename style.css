@@ -88,13 +88,13 @@ body {
  }
 
  .btn-primary:hover {
-     background: linear-gradient(90deg, #bdee0c 0%, #8ddf0a 100%);
+     background: linear-gradient(90deg, #0d0e0d 0%, #0f0f0e 100%);
      color: #fff;
  }
 
  footer {
      background: #111418;
-     color: #b2ebf2;
+     color: #fca402;
      border-top: 1px solid #f7b708;
  }
 
